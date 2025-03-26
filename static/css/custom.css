@@ -22,7 +22,6 @@
 
 .frostedGlass {
     filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.2));
-    backdrop-filter: blur(10px);
 }
 
 
@@ -40,13 +39,20 @@
 
 
 
-.artWindowBottom {
+
+
+.artWindowTop {
     position: relative;
-    top: 0;
-    z-index: -2;
+    height: 30vh;
+    overflow: hidden;
+
 }
 
-.artWindowTop-overlay {
+.artWindowTop-gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
     background: 
     linear-gradient(
         to top,
@@ -54,7 +60,31 @@
         rgba(164, 213, 140, 0.2) 100%);
     }
 
-.artWindowBottom-overlay {
+.artWindowTop-overlay {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    max-height: 100%;
+    max-width: 1000px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    }
+
+
+
+
+.artWindowBottom {
+    position: relative;
+    min-height: 30vh;
+    overflow: hidden;
+}
+
+.artWindowBottom-gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
     background: 
     linear-gradient(
         to bottom,
@@ -62,10 +92,24 @@
         rgba(164, 213, 140, 0.2) 100%);
     }
 
+.artWindowBottom-overlay {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    max-height: 500px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.2));
+
+    }
+
+
+
 .artWindow-art {
     position: absolute;
     top: 0;
-    width: 105%;
-    height: auto;
+    height: 100%;
+    width: auto;
     z-index: -1;
 }
