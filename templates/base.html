@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will Postma Creative</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{ get_url(path="css/custom.css?v=01") }}">
+
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+
+
+</head>
+
+<body class="baseBKG">
+
+
+<!--This is the Nav Bar-->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light fw-light bg-white fixed-top frostedGlass">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="{{ get_url(path='') }}">
+    <img src="{{ get_url(path="images/logo-colour_01.png") }}" class="headerBrand" alt="WP" />
+  </a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/bio/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          bio
+          </a>
+      </li>
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/achievements/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          achievements
+          </a>
+      </li>
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/past_work/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          past work
+          </a>
+      </li>
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/special_projects/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          special projects
+          </a>
+      </li>
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/blog/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          blog
+          </a>
+      </li>
+
+
+      <li class="nav-item navBorder">
+          <a href="{{ get_url(path='@/contact/_index.md') }}" class="nav-link link-dark link-underline link-underline-opacity-0 align-middle">
+          contact
+          </a>
+      </li>
+
+
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!--This is the name stencil that providea window to some background art-->
+
+
+<div class="artWindowTop"></div>
+
+  <img src="{{ get_url(path="images/art-window_03.png") }}" class="img-fluid artWindowTop-overlay" alt="..." />
+
+  <div>
+<!--  Once the art window videos are done, they'll go here
+    <video id="logoRevealsVideo" class="img-fluid artWindow-art" loop playsinline autoplay muted preload="preload">
+      <source src="{{ get_url(path="videos/AnimatedLogoReveals_H264_01.mp4") }}" type="video/mp4">
+      <source src="{{ get_url(path="videos/AnimatedLogoReveals_VP9_01.webm") }}" type="video/webm">
+    </video>   
+-->
+  </div>
+
+</div>
+
+
+<!--This is the body of the page you're on as described in the various other templates-->
+
+
+<section class="section bg-white">
+    {% block content %} {% endblock %}
+</section>
+
+
+
+
+
+<!--This is the art window for the bottom of the page-->
+
+<div class="artWindowBottom">
+
+  <img src="{{ get_url(path="images/art-window_04.png") }}" class="img-fluid artWindowBottom-overlay" alt="..." />
+
+  <div>
+<!--  Once the art window videos are done, they'll go here
+    <video id="logoRevealsVideo" class="img-fluid artWindow-art" loop playsinline autoplay muted preload="preload">
+      <source src="{{ get_url(path="videos/AnimatedLogoReveals_H264_01.mp4") }}" type="video/mp4">
+      <source src="{{ get_url(path="videos/AnimatedLogoReveals_VP9_01.webm") }}" type="video/webm">
+    </video>   
+-->
+  </div>
+
+
+</div>
+
+
+
+<!--This is the footbar that sticks to the bottom of the site-->
+
+
+<div class="container-fluid footerBar fixed-bottom fw-light bg-white">
+  <div class="row p-2">
+
+    <div class="col-9 text-start align-center">
+      <p>
+        copyright 2025 Will Postma 
+      </p>
+    </div>
+
+
+    <div class="col-1">
+      <a href="https://www.instagram.com/squirrelanimationco?igsh=MTB1d2QxMmhjeXBxbw%3D%3D&utm_source=qr">
+        <img src="{{ get_url(path="images/socialsIcons_insta_01.png") }}" class="h-25" alt="insta" />
+      </a>
+    </div>
+
+
+    <div class="col-1">
+      <a href="https://www.linkedin.com/in/will-postma-b8a92115">
+        <img src="{{ get_url(path="images/socialsIcons_linkedin_01.png") }}" class="h-25" alt="linkedin" />
+      </a>
+    </div>
+
+
+  
+    <div class="col-1">
+    <a href="https://vimeo.com/user21017350">
+      <img src="{{ get_url(path="images/socialsIcons_vimeo_01.png") }}" class="h-25" alt="linkedin" />
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

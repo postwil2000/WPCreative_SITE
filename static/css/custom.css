@@ -1,0 +1,71 @@
+.baseBKG {
+    background-color: rgb(164, 213, 140);
+    z-index: -2;
+}
+
+
+.navBorder {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.navBorder:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.navBorder:active {
+    border-left: 1px solid rgba(42, 212, 238);
+    border-right: 1px solid rgba(42, 212, 238);
+}
+
+
+.frostedGlass {
+    filter: drop-shadow(15px 15px 20px rgba(0, 0, 0, 0.2));
+    backdrop-filter: blur(10px);
+}
+
+
+.headerBrand {
+    max-height: 5vh;
+}
+
+.footerBar {
+    max-height: 5vh;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+.artWindowBottom {
+    position: relative;
+    top: 0;
+    z-index: -2;
+}
+
+.artWindowTop-overlay {
+    background: 
+    linear-gradient(
+        to top,
+        rgba(42, 212, 238, 0.5) 20%,
+        rgba(164, 213, 140, 0.2) 100%);
+    }
+
+.artWindowBottom-overlay {
+    background: 
+    linear-gradient(
+        to bottom,
+        rgba(238, 137, 42, 0.5) 20%,
+        rgba(164, 213, 140, 0.2) 100%);
+    }
+
+.artWindow-art {
+    position: absolute;
+    top: 0;
+    width: 105%;
+    height: auto;
+    z-index: -1;
+}

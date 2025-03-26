@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid fw-light">
+
+  <div class="row justify-content-center p-3">
+
+    <div class="col-6">
+      <img src="{{ get_url(path="images/logo_01.png") }}" class="float-end img-fluid" alt="WP" />
+    </div>
+
+    <div class="col-6">
+      <img src="{{ get_url(path="images/past_work_01.png") }}" class="float-start img-fluid" alt="| bio" />
+    </div>
+
+  </div>
+
+
+
+  <div class="row justify-content-center p-3">
+    <div class="col-8">
+
+      <p>
+        Here's my super cool Demo Reel:  
+      </p>
+      
+      <div>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/944119007?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Will Postma - Animation Reel 2024">
+            </iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js">
+        </script>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+{% endblock content %}
+
+
