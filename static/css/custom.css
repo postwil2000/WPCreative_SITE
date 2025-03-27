@@ -1,5 +1,5 @@
 .baseBKG {
-    background-color: rgb(164, 213, 140);
+    background-color: white;
     z-index: -2;
 }
 
@@ -75,6 +75,7 @@
         to top,
         rgba(42, 212, 238, 0.5) 20%,
         rgba(164, 213, 140, 0.2) 100%);
+    background-color: rgb(164, 213, 140);
     }
 
 .artWindowTop-overlay {
@@ -107,6 +108,7 @@
         to bottom,
         rgba(238, 137, 42, 0.5) 20%,
         rgba(164, 213, 140, 0.2) 100%);
+    background-color: rgb(164, 213, 140);
     }
 
 .artWindowBottom-overlay {
