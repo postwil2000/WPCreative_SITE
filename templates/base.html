@@ -149,37 +149,37 @@
 <!--This is the footbar that sticks to the bottom of the site-->
 
 
-<div class="container-fluid footerBar fixed-bottom fw-light bg-white">
-  <div class="row p-2">
+<div class="container-fluid footerBar fw-light">
+  <div class="row bg-light">
 
-    <div class="col-9 text-start align-center">
-      <p>
+    <div class="col-xs-12 col-sm-6 justify-items-start d-flex align-items-end">
+      <p class="fs-6">
         copyright 2025 Will Postma 
+        <br>
+        make cool stuff | solve hard problems
       </p>
     </div>
 
 
-    <div class="col-1">
-      <a href="https://www.instagram.com/willpostmacreative?igsh=MTB1d2QxMmhjeXBxbw%3D%3D&utm_source=qr">
-        <img src="{{ get_url(path="images/socialsIcons_insta_01.png") }}" class="h-25" alt="insta" />
-      </a>
+    <div class="col-xs-12 col-sm-6 d-flex justify-content-end">
+      <div>
+
+        <div class="socialIconsContainer">
+          <a href="https://www.instagram.com/willpostmacreative?igsh=MTB1d2QxMmhjeXBxbw%3D%3D&utm_source=qr">
+            <img src="{{ get_url(path="images/socialsIcons_insta_01.png") }}" class="socialIcons" alt="insta" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/will-postma-b8a92115">
+            <img src="{{ get_url(path="images/socialsIcons_linkedin_01.png") }}" class="socialIcons" alt="linkedin" />
+          </a>
+
+          <a href="https://vimeo.com/user21017350">
+            <img src="{{ get_url(path="images/socialsIcons_vimeo_01.png") }}" class="socialIcons" alt="linkedin" />
+          </a>
+        </div>
+
+      </div>
     </div>
-
-
-    <div class="col-1">
-      <a href="https://www.linkedin.com/in/will-postma-b8a92115">
-        <img src="{{ get_url(path="images/socialsIcons_linkedin_01.png") }}" class="h-25" alt="linkedin" />
-      </a>
-    </div>
-
-
-  
-    <div class="col-1">
-    <a href="https://vimeo.com/user21017350">
-      <img src="{{ get_url(path="images/socialsIcons_vimeo_01.png") }}" class="h-25" alt="linkedin" />
-    </a>
-  </div>
-
 
   </div>
 </div>

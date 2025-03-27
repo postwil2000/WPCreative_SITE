@@ -30,14 +30,31 @@
 }
 
 .footerBar {
-    max-height: 5vh;
+
+    max-height: 6vh;
     white-space: nowrap;
 }
 
 
 
+.mcForm{
+    justify-content: center;
+    padding: 3rem 0rem;
+    width: 100%;
+}
+
+.formScale{
+    max-width: 100%;
+}
 
 
+.divTest{
+    background-color: brown;
+}
+
+.divTest2{
+    background-color: rgb(14, 208, 91);
+}
 
 
 
@@ -115,7 +132,14 @@
 }
 
 
+.socialIconsContainer{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
 .socialIcons{
-    height: 5vh;
+    height: 100%;
     width: auto;
+    padding: 0.5vh;
 }
