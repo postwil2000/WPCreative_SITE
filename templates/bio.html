@@ -20,17 +20,15 @@
   <div class="row justify-content-center p-3">
     <div class="col-sm-10">
       <p>
-        I’m Will Postma.  I’m an animator, VFX artist, 3D/CG generalist, video specialist and art nerd with 15+ years experience working in television.  I’ve done everything from character animation on preschool TV shows like “Bubble Guppies” and “Blues Clues And You” to complex VFX shots on multi-million dollar prestige shows like “The Expanse” and “Altered Carbon”.  
-        <br><br>
-        In 2023, I lead an animation team to an Emmy win (2025 Outstanding Preschool Series). More recently, I played a central role in rescuing a show in a state of crisis (Dylan’s Playtime Adventures) so that rather than failing to go to air at all, it could go on to be nominated at the Kidscreen Awards in the “Best New Series (Preschool)” category.         
-        <br><br>
-        Starting in 2020, I’ve been running a small freelance business where I create materials and assets for companies looking to put something a little (a lot!!) more high-end out onto the video platforms. 
-        <br><br>
-        I graduated from Brock University in 2008 with my BA (Honours) in Visual Arts and then from Sheridan College’s Computer Animation program in 2009. I’ve since worked at a number of studios on a frankly huge variety of projects in an equally wide array of roles. I’ve worked all over the animation and VFX pipelines, I’ve lead multiple teams, mentored young artists, taught classes and I’ve built entire suites of purpose-built tools and pipeline proofs-of-concept. 
-        <br><br>
-        I’ve been blessed with a brilliant wife, 3 amazing kiddos and a wonderfully clingy dog.  I also enjoy practicing finished carpentry, playing and enjoying music, volunteering in my community and getting outside for a hike.        </p>
+        {% for page in section.pages %}
+
+        {{ page.content | safe }}
+    
+        {% endfor %}
     </div>
   </div>
+
+
 
 </div>
 {% endblock content %}
