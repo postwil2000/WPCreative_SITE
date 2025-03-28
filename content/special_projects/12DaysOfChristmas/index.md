@@ -1,6 +1,6 @@
 +++
 title = "12 Days of Christmas Mini-Films"
-date = 2024-12-25
+date = 2025-03-28
 +++
 
 Back in December of 2024, I did a series of mini-films for the 12 Days of Christmas.  They’re short animated vignettes, each one or two minutes long.  
