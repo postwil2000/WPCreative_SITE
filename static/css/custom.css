@@ -29,6 +29,13 @@
     max-height: 5vh;
 }
 
+
+.QR {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
 .footerBar {
 
     max-height: 5vh;
