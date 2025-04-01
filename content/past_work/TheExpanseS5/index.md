@@ -1,6 +1,6 @@
 +++
 title = "The Expanse, Season 5"
-date = 2020-09-30
+date = 2020-08-30
 description = "VFX Generalist - Krow VFX"
 +++
 
