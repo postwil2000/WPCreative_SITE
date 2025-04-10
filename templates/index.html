@@ -17,22 +17,19 @@
   </div>
 
 
+
+
+
   <div class="row justify-content-center p-3">
     <div class="col-sm-10">
-      <h3 class="fw-light">
-        Welcome, friends!  
-      </h3>
       <p>
-        If you don't already know, I'm Will.  I'm an Emmy winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.
-        <br><br>
-        I have 15 years of experience working in television bringing stories to life, leading teams, solving hard problems and generally making magic happen.  There's more in the bio section, but that's the gist of it.  Do you need something made that's hard to make?  I can make it.  It's just that simple. 
-        <br><br>
-        This, by the way, is my fancy new website.  Its a little sparse at the moment, but that's part of being new!  I'll add more stuff as I go, but in the meantime, why don't you make yourself at home.  
-        <br>
-        
-      </p>
-    </div>
+        {% for page in section.pages %}
 
+        <p>
+        {{ page.content | safe }}
+        </p>
+        {% endfor %}
+    </div>
   </div>
 
 
