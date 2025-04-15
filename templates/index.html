@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section id="landing_page">
+
+<div class="container-md fw-light">
+
+  <div class="row justify-content-center p-3">
+
+    <div class="col-6">
+      <img src="{{ get_url(path="images/logo_01.png") }}" class="float-end img-fluid" alt="WP" />
+    </div>
+
+    <div class="col-6">
+      <img src="{{ get_url(path="images/tagline_01.png") }}" class="float-start img-fluid" alt="| make cool stuff.  solve hard problems." />
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="row justify-content-center p-3">
+    <div class="col-sm-10">
+      <p>
+        {% for page in section.pages %}
+
+        <p>
+        {{ page.content | safe }}
+        </p>
+        {% endfor %}
+    </div>
+  </div>
+
+
+  
+</div>
+
+</section>
+
+{% endblock content %}
