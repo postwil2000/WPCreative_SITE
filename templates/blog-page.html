@@ -30,7 +30,7 @@
         {% for asset in page.assets -%}
           {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
             {% set image = resize_image(path=asset, height=300, op="fit_height") %}
-              <img src="{{ image.url }}" />
+              <img src="{{ image.url }}" class="img-fluid" />
           {%- endif %}
         {%- endfor %}
       </div>
