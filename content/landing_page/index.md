@@ -1,18 +1,22 @@
 +++
 title = "Will Postma Creative"
-date = 2025-04-10
+date = 2025-05-13
 +++
 
-If you don't already know, I'm Will. I'm an Emmy winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.  I have 15 years of experience working in television.  You can read more about that in the Bio and Past Work sections.  
+Hey friends! I'm Will. I'm an Emmy winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.  I have 15 years of experience working in television.  You can read more about that in the Bio and Past Work sections.  
 
-But while you're here, why not check out this ... well, it's not a demo reel.  
+But while you're here, why not check out this ... well, it's not a demo reel.  Really, it's not.  I know the clips are covered in timecodes and studio watermarks and some of them are just "viewport renders" but it really isn't a demo reel. This reel is designed to be enjoyable to watch whereas industry reels kinda ... aren't.  
 
 {{ vimeo(id="1074360148") }}
 
 <br>
 
-Really, it's not a demo reel.  I know the clips are covered in timecodes and studio watermarks and some of them are just "viewport renders" but it really isn't a demo reel. 
+Now, if you're inclined to be curious as to whether I know how to time a performance with an audio track, here's a perfectly lovely industry-facing demo reel for your edification:
 
-Demo reels are typically pretty dull and weird and meant for folks who want to see whether the mouths are moving in time with the voice-over.  At least, industry reels are.  They're meant as a way of saying, "Really, I can do this stuff, believe me!" as if putting some footage on a video is proof of anything.  
+{{ vimeo(id="944119007") }}
 
-What I'm saying with this video is, "Hey, check out some of the cool stuff I made in the last 15 years.  I'm excited about it and if I can, I'd like to get you excited about it too!"  That's it.  Enjoy!  
+<br>
+
+I'll say though, to my industry colleagues, that anyone who's worked with me knows that the real value I bring goes way beyond demo reels and performances.  I bring compassionate leadership, proactive problem solving, clear communication, a rare growth mindset and unparalleled energy. I bring fun, and approachability.  I get curious about challenges instead of jumping to conclusions.  
+
+I address roadblocks with my unusually active brain, but I lead with my heart.  
