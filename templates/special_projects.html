@@ -19,7 +19,7 @@
   <div class="row justify-content-center p-3">
     <div class="col-md-6">
       {% for page in section.pages %}
-      {% if page.title is matching("About this section...") -%}
+      {% if page.extra.abstract -%}
 
       <div>
 
@@ -48,7 +48,7 @@
             You need to use the paginator object -->  
 
             {% for page in section.pages %}
-            {% if page.title is not matching("About this section...") -%}
+            {% if not page.extra.abstract -%}
 
 
             <div class="row justify-content-center p-3">

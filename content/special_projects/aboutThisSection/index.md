@@ -1,6 +1,9 @@
 +++
-title = "About this section..."
+title = "Just for me ... and for you."
 date = 2025-03-27
+
+[extra]
+abstract = true
 +++
 
-This is a section for projects done outside of client or studio work.  Its stuff done for me, for you and for the love of it.  Enjoy!
+Here I'm showing off projects done outside of client or studio work.  It's stuff done for me, for you and for the love of it.  Enjoy!
