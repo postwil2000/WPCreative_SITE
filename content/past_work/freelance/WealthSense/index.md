@@ -1,7 +1,7 @@
 +++
 title = "Wealth Sense website vignettes"
 date = 2021-03-31
-description = "Freelance - Kaiser Design and Marketing"
+description = "Web Margin vignettes"
 
 [extra]
 abstract = false

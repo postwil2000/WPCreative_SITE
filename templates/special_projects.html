@@ -58,13 +58,15 @@
               
                   <div>
                     {%- for asset in page.assets -%}
-                      {% if asset is matching("[.](jpg|jpeg|png)$") %}
-                        {% set image = resize_image(path=asset, width=100, height=100) %}
-                          <img src="{{ image.url }}" class="img-fluid" />
+                      {% if asset is matching("thumb[.](jpg|jpeg|png)$") %}
+                
+                            {% set image = resize_image(path=asset, width=100, height=100) %}
+                            <img src="{{ image.url }}" class="img-fluid" />
+                
                       {% endif %}
                     {%- endfor -%}
                   </div>
-    
+
                 </a>
     
               </div>
@@ -74,10 +76,20 @@
                 <a href="{{ page.permalink | safe }}" class="link-dark link-underline link-underline-opacity-0 link-underline-opacity-100-hover">
                   <h2 class="fw-lighter">
                   {{ page.title }}
-                </h2>
-                <p>
-                  {{ page.date }}
-                </p>
+                  </h2>
+
+                  {%- if not page.extra.gallery -%}
+                    <p>
+                      {{ page.date }}
+                    </p>
+                  {%- endif -%}
+
+                  {%- if page.extra.gallery -%}
+                    <p>
+                      {{ page.description }}
+                    </p>
+                  {%- endif -%}
+
                 </a>
     
               </div>

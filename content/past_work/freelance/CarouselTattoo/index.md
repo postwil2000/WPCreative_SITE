@@ -1,7 +1,7 @@
 +++
 title = "Carousel Tattoo Logo-Reveal Animation"
 date = 2024-10-19
-description = "Freelance - Carousel Tattoo and Barber Shop"
+description = "Animated Logo-Reveal"
 
 [extra]
 abstract = false

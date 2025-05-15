@@ -1,7 +1,7 @@
 +++
 title = "House Wine Co Commercial"
 date = 2021-09-20
-description = "Freelance - Kaiser Design and Marketing"
+description = "Fully animated commercial for a new wine brand"
 
 [extra]
 abstract = false

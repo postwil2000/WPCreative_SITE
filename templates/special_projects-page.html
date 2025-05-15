@@ -3,47 +3,62 @@
 {% block content %}
 <div class="container-md fw-light">
 
-  <div class="row p-3">
-    <div class="col">
+  <div class="row justify-content-center p-3">
+    <div class="col-sm-6">
 
-      <h1 class="title text-center">
+      <h1 class="title text-start">
         {{ page.title }}
       </h1>
+
+
+      {% if page.extra.featured %}
+      <p class="text-end">
+        {{ page.description }}
+      </p>
+      {% endif %}
+
 
     </div>
   </div>
 
   
-  <div class="row p-3">
-    <div class="col">
+  {% if not page.extra.gallery %}
+    <div class="row p-3">
+      <div class="col">
 
-      <p class="subtitle"><strong>{{ page.date }}</strong></p>
+        <p class="subtitle"><strong>{{ page.date }}</strong></p>
 
-    </div>
-  </div>
-
-  <div class="row p-3">
-    <div class="col">
-
-      <div>
-        {% for asset in page.assets -%}
-          {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
-            {% set image = resize_image(path=asset, height=300, op="fit_height") %}
-              <img src="{{ image.url }}" class="img-fluid" />
-          {%- endif %}
-        {%- endfor %}
       </div>
-
     </div>
-  </div>
 
-  <div class="row p-3">
-    <div class="col">
+
+    <div class="row p-3">
+      <div class="col">
+
+        <div>
+          {% for asset in page.assets -%}
+            {%- if asset is matching("[.](jpg|jpeg|png)$") -%}
+              {% set image = resize_image(path=asset, height=300, op="fit_height") %}
+                <img src="{{ image.url }}" class="img-fluid" />
+            {%- endif %}
+          {%- endfor %}
+        </div>
+
+      </div>
+    </div>
+  {% endif %}
+
+
+  <div class="row justify-content-center p-3">
+    <div class="col-xs-10 ">
 
       {{ page.content | safe }}
 
     </div>
   </div>
+
+
+
 
 </div>
 {% endblock content %}
