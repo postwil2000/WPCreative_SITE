@@ -12,4 +12,4 @@ Starting in 2020, I’ve been running a small freelance business where I create 
 I’ve been blessed with a brilliant wife, 3 amazing kiddos and a wonderfully clingy dog. I also enjoy practicing fine carpentry, playing and enjoying music, volunteering in my community and getting outside for a hike.
 
 
-I graduated from Brock University in 2008 with my BA (Honours) in Visual Arts and then from Sheridan College’s Computer Animation program in 2009. 
+I graduated from Brock University in 2008 with my BA (Honours) in Visual Arts and then from Sheridan College’s Computer Animation program in 2009.  
