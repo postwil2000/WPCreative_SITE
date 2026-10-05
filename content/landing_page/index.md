@@ -3,7 +3,7 @@ title = "Will Postma Creative"
 date = 2025-05-13
 +++
 
-Hey friends! I'm Will. I'm an award-winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.  I have 17 years of experience working in television.  You can read more about that in the Bio and Past Work sections.  
+Hey friends! I'm Will. I'm an award-winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.  I have nearly 20 years of experience working in television.  You can read more about that in the Bio and Past Work sections.  
 
 In the meantime, check out my 2026 Animation Reel!  This time around, I kept it to the more recent stuff, so only the work I've done in since 2020 or so.  
 
