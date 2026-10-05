@@ -7,4 +7,4 @@ description = "... cause art wants to be seen."
 abstract = true
 +++
 
-Here are a couple Demo Reels ... or something like that.  There's an industry-facing demo reel and also there's a demo reel that's not really a demo reel at all.  It's more of a fun reel.  Enjoy!
+Here are a couple Demo Reels.  There's an animation reel and also there's a vfx reel, both posted in 2026 but each containing work that reaches back several years.  Enjoy!
