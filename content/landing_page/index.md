@@ -5,9 +5,16 @@ date = 2025-05-13
 
 Hey friends! I'm Will. I'm an award-winning animator, VFX artist, digital video specialist, creative problem solver, husband and dad.  I have 17 years of experience working in television.  You can read more about that in the Bio and Past Work sections.  
 
-In the meantime, check out my 2026 Animation Reel!  This time around, I kept it to the more recent stuff, so only the work I've done in since 2020 or so.  The very most recent stuff has yet to air, so I'll have to update this again in 6 months or so.  Stay tuned!! 
+In the meantime, check out my 2026 Animation Reel!  This time around, I kept it to the more recent stuff, so only the work I've done in since 2020 or so.  
 
 {{ vimeo(id="1196715275") }}
+
+<br><br>
+
+Also, check out my latest VFX reel.  There's a whole mix here of sims, hand animated fluids and splashes, some compositing work for live-action.  The whole range.  Enjoy!
+
+
+{{ vimeo(id="1232457230") }}
 
 <br><br>
 
